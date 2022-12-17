@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eric's Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+<!-- Update these with your own fonts -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css\style.css">
+
+    </head>
+
+
+    <body>
+        <header>
+            <div class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="aboutMe.html" class="nav__link">Personal Interests</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+         <!-- Introduction -->
+         <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Spotify Widget
+            </h1>
+            <p class="portfolioTitle">
+                *Almost* as good as the real thing! 
+            </p>
+            <img src="img\ComingSoon.jpg" alt="slim reaper" class="intro__img">
+        </section>
+
+
+        <div class="portfolio-item-individual">
+            <p>As part of our submission for nwHacks 2022 (a popular hackathon in Western Canada), my three friends and I decided to make a Spotify web app. 
+                This widget allows one to log in using their real Spotify account. 
+                <br><br>
+                The nav bar allows the user to try a variety of different functions. 
+                The first one is the "Liked Songs" tab, which displays a handful of the user's liked songs. It displays the song title and artist, as well as the accompanying album cover. 
+                If you click on any album cover, it opens the actual Spotify page of that particular album in a new tab. 
+                <br><br>
+                The next tab, "Currently Playing", can display the song title, artist, and album cover of the song that the user is currently playing, in real time. 
+                <br><br>
+                The next tab, "Artist Top Tracks", allows the user to search for an artist in the text box, and it will return a list of the top 10 most popular songs and accompanying album covers for those particular songs. 
+                <br><br>
+                The next tab, "Recommendations", is my personal favourite feature of this entire widget. The user can type in any genre, and a list of song names, artists, and their respective album covers will show up.
+                The primary intention behind this feature is to introduce the user to some new songs that they've never heard before, based on genre. For example, if someone really likes rock music, the resulting
+                list of songs will be all from the rock genre, catering to their personal taste and preference.  
+                <br><br>
+                The next tab, "Trending", displays a list of the top 50 trending songs globally, in case the user is curious about what kind of music the world is tuned into nowadays.
+                <br><br>
+                The last tab, "My Profile", displays the user's profile picture along with their username.
+            </p>
+            <div style="display: flex;">
+                <img src="img\EricBoba.jpg" width="300px" height="300px">
+                <img src="img\EricBoba.jpg" width="300px" height="300px">
+                <img src="img\EricBoba.jpg" width="300px" height="300px">
+
+            </div>
+            <h4>Technologies & Languages Used:</h4>
+                <ul class="portfolioDots">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>Flask</li>
+                    <li>Jinja</li>
+                    <li>CSS</li>
+                    <li>Spotipy (Spotify API for Python)</li>
+                    <li>Docker</li>
+                </ul>
+
+         </div>
+
+        
+       <!-- Footer -->
+       <footer class="footer">
+        <i class="fas fa-envelope" style="margin-right: 3px;"></i>
+        <a href="mailto:summer.eric1@gmail.com" class="footer__link">summer.eric1@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/eric-li-495724205/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/EricLi35" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.kaggle.com/ericli35" target="_blank">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/ericli.35/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            
+
+        </ul>
+    </footer>
+    
+        <script src="js/index.js"></script>
+
+
+    </body>
+
+
+
+</html>
